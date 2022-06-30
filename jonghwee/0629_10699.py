@@ -1,4 +1,4 @@
-from datetime import date, datetime
+import datetime
 
-
-print(date.today())
+now = datetime.datetime.now()
+print( str(now + datetime.timedelta(hours=9))[:10] )
