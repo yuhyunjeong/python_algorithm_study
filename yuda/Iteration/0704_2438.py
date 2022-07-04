@@ -1,6 +1,4 @@
-while True:
-    try:
-        n = list(map(int, input().split()))
-        print(sum(n))
-    except:
-        break
+n = int(input())
+
+for i in range(1, n + 1):
+    print("*" * i)
