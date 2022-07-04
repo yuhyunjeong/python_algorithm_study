@@ -1,5 +1,5 @@
 import sys
-
+# def fact()를 써도 됨. def는 함수를 정의하는 것.
 N = int(sys.stdin.readline());
 result = 1;
 
