@@ -1,7 +1,7 @@
 import sys
 
 
-num = int(sys.stdin.readline()) #개수
+num = int(sys.stdin.readline()) #개수 
 
 result = 0
 
