@@ -6,3 +6,5 @@ for i in range(len(word)) :
     else :
          word[i] = word[i].lower()
     print(word[i],end="")
+
+# print(input().swapcase()) # 대문자 <-> 소문자
