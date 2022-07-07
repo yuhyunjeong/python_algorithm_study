@@ -2,7 +2,7 @@ import string
 import sys
 
 letter = sys.stdin.readline();
-# abc = string.ascii_lowercase;
+abc = string.ascii_lowercase;
 # print(abc)
 # for i in range(0,len(abc)):
 #     for j in range(0,len(letter)):
