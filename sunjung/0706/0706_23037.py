@@ -2,9 +2,9 @@
 # 각 자릿수의 다섯제곱의 합을 출력
 
 n = int(input())
+sum = 0
 
-result = 0
-for i in range(n) :
-    result += int(i)**5
+for i in range(len(n)) :
+    sum += int(n[i])**5
 
-print(result)
+print(sum)
