@@ -7,3 +7,9 @@ for _ in range(9):
     
 print(max(num))
 print(num.index(max(num))+1) #index는 0부터 시작, 1을 더해준다
+
+
+#풀이2
+num = [int(input()) for _ in range(9)]
+print(max(num))
+print(num.index(max(num)) + 1)
