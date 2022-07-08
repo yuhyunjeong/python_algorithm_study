@@ -1,5 +1,3 @@
-
-
 num = [int(input()) for _ in range(3)]
 result = list(str(num[0] * num[1] * num[2]))
 

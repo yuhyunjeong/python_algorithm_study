@@ -8,3 +8,13 @@ if M < 45 :
         print(H-1, 60-(45-M))
 else :
     print(H, M-45)
+
+# 풀이 2 
+time = list(map(int, input().split()))
+
+time[0] += (time[1] - 45) // 60
+time[1] = (time[1] - 45) % 60
+if time[0] < 0:
+    time[0] += 24
+
+print(*time)
