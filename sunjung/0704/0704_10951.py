@@ -4,3 +4,5 @@ while True:
         print(A+B)
     except :
         break
+
+#readlines() 는 입력값을 모두 받아서 list로 만들어준다.
