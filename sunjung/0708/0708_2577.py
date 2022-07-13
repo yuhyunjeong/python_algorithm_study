@@ -7,6 +7,23 @@ A = int(input())
 B = int(input())
 C = int(input())
 
-result = list(str(A * B * C))
-for i in range(10):
+result = list(str(A * B * C)) #string으로 변환해야 잘려서 출력된다!
+for i in range(10): #1부터 9까지의 숫자가 각각 몇 번 쓰였는지 출력
     print(result.count(str(i)))
+
+#풀이2
+num = [int(input()) for _ in range(3)]
+N = list(str(num[0] * num[1] * num[2]))
+
+for i in range(10):
+    print(N.count(str(i)))
+
+#풀이3
+multiple = 1
+for _ in range(3) :
+    multiple *= int(input())
+
+N = list(str(multiple))
+
+for i in range(10):
+    print(N.count(str(i)))
