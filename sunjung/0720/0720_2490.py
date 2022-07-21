@@ -13,3 +13,10 @@ for _ in range(3) :
         print("D")
     else:
         print("E") 
+
+#2번째 풀이
+score = ['E', 'A', 'B', 'C', 'D']
+N = 3
+for i in range(N):
+    result = list(map(int, input().split()))
+    print(score[result.count(0)])
