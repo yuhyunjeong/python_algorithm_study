@@ -1,4 +1,3 @@
-
 while 1:
     list_ = list(map(int, input().split())) 
     leaf = 1 #구하고자 하는 나뭇잎 개수
