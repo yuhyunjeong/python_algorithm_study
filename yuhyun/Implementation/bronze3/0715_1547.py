@@ -9,4 +9,3 @@ for _ in range(M):
 
 print(num.index(1)+1)
 
-
