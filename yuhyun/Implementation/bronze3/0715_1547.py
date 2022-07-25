@@ -8,4 +8,3 @@ for _ in range(M):
     num[X-1] , num[Y-1] = num[Y-1] , num[X-1]
 
 print(num.index(1)+1)
-
