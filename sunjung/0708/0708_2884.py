@@ -1,5 +1,4 @@
 # 알람시계
-
 h, m = map(int, input().split())
 
 if m >= 45 :	
@@ -12,12 +11,6 @@ else :                #현재시간 0시일때, 45분보다 작다(빠름) - 시
     print(23, m+15) 
 
 #풀이2
-
-if m < 45 :
-    if h ==0:
-        print()
-
-#풀이3
 time = list(map(int, input().split()))
 
 time[0] += (time[1] - 45) // 60
