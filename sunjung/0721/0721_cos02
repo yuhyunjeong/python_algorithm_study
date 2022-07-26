@@ -1,0 +1,25 @@
+def func_a(s): #최소값 구하는 함수
+    ret = 0
+    for i in s:
+        if i > ret:
+            ret = i
+    return ret
+
+def func_b(s): #총합
+    ret = 0
+    for i in s:
+        ret += i
+    return ret
+
+def func_c(s): #최대값 구하는 함수
+    ret = 101
+    for i in s:
+        if i < ret:
+            ret = i
+    return ret
+
+def solution(scores):
+    sum = func_b(scores)
+    max_score = func_c(scores)
+    min_score = func_a(scores)
+    return sum - max_score - min_score
