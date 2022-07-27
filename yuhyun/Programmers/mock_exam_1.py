@@ -17,7 +17,8 @@ def solution(X, Y):
                 x_list.remove(i)
                 result.append(i)
                 result.sort(reverse=True) # 내림차순
-                answer = ' '.join(str(s) for s in result).replace(" ","") # 문자열 공백 없애기
+                #answer = ' '.join(str(s) for s in result).replace(" ","") # 문자열 공백 없애기
+                answer = ''.join(str(s) for s in result)
 
         if answer=='':
             answer="-1"
@@ -28,4 +29,4 @@ def solution(X, Y):
     
     return answer
 
-print(solution(100,203045))
+print(solution('10034','2345'))
