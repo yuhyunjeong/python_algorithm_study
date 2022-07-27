@@ -24,3 +24,24 @@ import sys
 
 # a = sys.stdin.readline().rstrip();
 # print(a[4:5]);
+
+# 6024
+# a, b = sys.stdin.readline().rstrip().split();
+# print(a+b);
+
+# 6025
+# a, b = map(int,sys.stdin.readline().rstrip().split());
+# print(a+b)
+
+# 6026
+# a=float(sys.stdin.readline().rstrip());
+# b=float(sys.stdin.readline().rstrip());
+# print(a+b);
+
+# 6027
+# a = int(sys.stdin.readline().rstrip());
+# print('%x'% a);
+
+# 6028
+# a = int(sys.stdin.readline().rstrip());
+# print('%X'% a);
