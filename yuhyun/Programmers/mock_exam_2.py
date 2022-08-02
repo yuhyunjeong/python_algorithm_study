@@ -1,3 +1,5 @@
+#미완성
+
 def solution(want, number, discount):
     answer = 0
 

@@ -1,3 +1,5 @@
+# 미완성
+
 # 스택
 
 def solution(order):
