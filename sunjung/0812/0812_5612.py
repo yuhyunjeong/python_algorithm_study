@@ -8,7 +8,7 @@ for i in range (n) :
     a,b = map(int, stdin.readline().split()) #입구를 통과한 차의 수와 출구를 통과한 차의 수
     c = m + (a-b) #a-b:터널 안에 있는 차량의 수
     result.append(c)
-    m = c
+    m = c #다시 m으로 초기화
 
 if min(result) < 0 :
     print(0)
