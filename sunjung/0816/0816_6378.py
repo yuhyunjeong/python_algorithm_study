@@ -15,9 +15,6 @@ while True :
 
     print(int(result))
 
-
-
-
 """ 
 
 while True:
