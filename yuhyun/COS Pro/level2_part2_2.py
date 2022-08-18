@@ -1,9 +1,11 @@
-def solution(height, k):
-    answer = 0
-    n = len(height)
-    for h in height:
-        if h > k:
-            answer += 1
-    return answer
+def solution(s):
+    s_lst = list(s)
+    n = len(s)
+    for i in range(n):
+        if s_lst[i] == 'a':
+            s_lst[i] = 'z'
+        elif s_lst[i] == 'z':
+            s_lst[i] =  'a'
+    return "".join(s_lst)
 
-print(solution([165, 170, 175, 180, 184], 175))
+print(solution("abz"))
