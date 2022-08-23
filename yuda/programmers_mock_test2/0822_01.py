@@ -1,25 +1,25 @@
 # 브루트포스
-# def solution(number):
-#     answer = 0
-#     n = len(number)
-#     for i in range(n):
-#         for j in range(i + 1, n):
-#             for k in range(j + 1, n):
-#                 if number[i] + number[j] + number[k] == 0:
-#                     answer += 1
-#     return answer
+def solution(number):
+    answer = 0
+    n = len(number)
+    for i in range(n):
+        for j in range(i + 1, n):
+            for k in range(j + 1, n):
+                if number[i] + number[j] + number[k] == 0:
+                    answer += 1
+    return answer
 
-# # combinations 함수 사용
-# import itertools
+# combinations 함수 사용
+import itertools
 
-# def solution(number):
-#     # 학생 세명의 정수 번호를 더했을때 0이 되는 방법의 수
-#     answer = 0
+def solution(number):
+    # 학생 세명의 정수 번호를 더했을때 0이 되는 방법의 수
+    answer = 0
 
-#     for i in list(itertools.combinations(number, 3)): #세개씩 묶은 조합 (1,2,3)
-#         if sum(i) == 0 : # 조합의 합이 0이라면
-#             answer += 1
-#     return answer
+    for i in list(itertools.combinations(number, 3)): #세개씩 묶은 조합 (1,2,3)
+        if sum(i) == 0 : # 조합의 합이 0이라면
+            answer += 1
+    return answer
 
 # 투 포인터
 def solution(number):
