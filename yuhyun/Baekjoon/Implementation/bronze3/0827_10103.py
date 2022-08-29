@@ -15,3 +15,5 @@ for _ in range(int(input())):
 
 print(c_score)
 print(s_score)
+
+# print(f"{c_score}\n{s_score}")
